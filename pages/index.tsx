@@ -4,13 +4,9 @@ import MainLayout from "../components/layouts/MainLayout";
 export default function Home() {
   return (
     <MainLayout>
-      <h1>
-        Ir a <Link href="/about">Next.js!</Link>
-      </h1>
+      <h1>Hola mi amor, esta es mi primer página publicada</h1>
 
-      <p>
-        Get started by editing <code>pages/index.js</code>
-      </p>
+      <p>Buenos días {"<3"}</p>
     </MainLayout>
   );
 }
